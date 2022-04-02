@@ -49,7 +49,7 @@ resource "azurerm_storage_account" "jonnychipzsa" {
   account_tier             = "Standard"
   account_replication_type = "LRS"
   tags = {
-    environment = "jonnychipzenv1"
+    environment = "jonnychipzenv2"
   }
 }
 # Create our vNIC for our VM and assign it to our Virtual Machines Subnet
